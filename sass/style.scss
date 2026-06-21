@@ -104,6 +104,16 @@ body {
   }
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+.sp-hidden {
+  @include mq(sm) {
+    display: none;
+  }
+}
+
 .header {
   height: $header-height-sp;
   background-color: #fff;
@@ -1053,5 +1063,3 @@ body {
   color: #888;
   font-size: inherit;
 }
-
-

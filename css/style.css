@@ -88,6 +88,16 @@ body.is-fixed {
   }
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+@media screen and (min-width: 600px) {
+  .sp-hidden {
+    display: none;
+  }
+}
+
 .header {
   height: 60px;
   background-color: #fff;
@@ -1169,7 +1179,7 @@ body.is-fixed {
   color: #3ea1d1;
 }
 
-.fa-x-twitter {
+.fa-twitter {
   font-size: 21px;
 }
 
