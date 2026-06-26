@@ -28,6 +28,7 @@ document
       document
         .querySelector("#js-drawer-content")
         .classList.remove("is-checked");
+
+      document.body.classList.remove("is-fixed");
     });
   });
-
